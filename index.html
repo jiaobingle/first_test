@@ -1,1 +1,16 @@
 Hello World!
+
+1/把你创建的repo clone到本地
+
+本文假定你已经有一定的git使用基础了，如果没有也没关系，Google一下，git的基本使用极为简单。
+$ git clone https://github.com/tobiasalin/tobiasalin.github.io
+
+2/编写简单的博客首页
+$ cd tobiasalin.github.io
+$ echo "Hello World!" > index.html
+$ git add index.html
+$ git commit -m "Init commit"
+$ git push origin master
+
+3/打开博客网站https://<username>.github.io
+不出意外，你就可以看到你的Hello World!博客首页了。
